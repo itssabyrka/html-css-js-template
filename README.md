@@ -1,1 +1,1 @@
-# HTML CSS JS Template
+# Sabyrka Vanilla Starter
