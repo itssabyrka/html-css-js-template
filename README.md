@@ -2,7 +2,7 @@
 
 A lightweight starter template for building websites with pure HTML, CSS and JavaScript.
 
-## Features
+## ✨ Features
 
 - Semantic HTML structure
 - Modern CSS setup
@@ -14,7 +14,7 @@ A lightweight starter template for building websites with pure HTML, CSS and Jav
 - Husky + lint-staged
 - GitHub Actions CI
 
-## Getting started
+## ⚙️ Getting started
 
 Clone the repository:
 
@@ -28,13 +28,13 @@ Install dependencies:
 pnpm install
 ```
 
-Start development:
+## 📜 Available scripts
+
+Format all supported files:
 
 ```bash
-pnpm dev
+pnpm format
 ```
-
-## Available scripts
 
 Run ESLint:
 
@@ -74,6 +74,6 @@ src/
 └── index.html
 ```
 
-## Purpose
+## 🎯 Purpose
 
 This template is designed as a reusable foundation for small and medium frontend projects. It provides a ready-to-use setup so new projects can start with a clean architecture instead of an empty folder.
