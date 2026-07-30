@@ -1,4 +1,4 @@
-# Sabyrka Vanilla Starter
+# 🚀 Sabyrka Vanilla Starter
 
 A lightweight starter template for building websites with pure HTML, CSS and JavaScript.
 
