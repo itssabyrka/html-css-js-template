@@ -36,37 +36,41 @@ pnpm dev
 
 ## Available scripts
 
+Run ESLint:
+
 ```bash
 pnpm lint
 ```
 
-Run ESLint.
+Run Stylelint:
 
 ```bash
 pnpm stylelint
 ```
 
-Run Stylelint.
+Run all checks:
 
 ```bash
 pnpm check
 ```
 
-Run all checks.
+## 📁 Project Structure
 
-```bash
-pnpm build
-```
-
-Build the project.
-
-## Project structure
-
-```
+```text
 src/
-├── assets/
+├── assets/              # Static assets
+│   ├── favicons/        # Favicon files
+│   ├── fonts/           # Local fonts
+│   ├── icons/           # SVG icons
+│   └── images/          # Images
+├── scripts/             # JavaScript files
+│   └── main.js
 ├── styles/
-├── scripts/
+│   ├── base/            # Normalize, variables, globals, fonts
+│   ├── components/      # Reusable UI components
+│   ├── layouts/         # Header, hero, footer, sections, grid
+│   ├── utils/           # Utility classes and helpers
+│   └── main.css
 └── index.html
 ```
 
