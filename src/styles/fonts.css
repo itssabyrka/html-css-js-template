@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Heebo;
+  font-family: 'Heebo';
   src: url('./assets/fonts/Heebo-Light.woff2') format('woff2');
   font-weight: 300;
   font-style: normal;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: Heebo;
+  font-family: 'Heebo';
   src: url('./assets/fonts/Heebo-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
@@ -15,7 +15,7 @@
 }
 
 @font-face {
-  font-family: Yantramanav;
+  font-family: 'Yantramanav';
   src: url('./assets/fonts/Yantramanav-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
