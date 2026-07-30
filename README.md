@@ -19,7 +19,7 @@ A lightweight starter template for building websites with pure HTML, CSS and Jav
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/itssabyrka/vanilla-starter.git
 ```
 
 Install dependencies:
