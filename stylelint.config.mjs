@@ -8,5 +8,6 @@ export default {
     'selector-not-notation': null,
     'comment-empty-line-before': null,
     'value-keyword-case': null,
+    'custom-property-empty-line-before': null,
   },
 }
