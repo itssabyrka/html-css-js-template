@@ -23,11 +23,13 @@
     ],
     "*.{css,scss}": [
       "prettier --write",
-      "stylelint --fix"
+      "stylelint --fix",
+      "stylelint"
     ],
     "*.{js,mjs}": [
       "prettier --write",
-      "eslint --fix"
+      "eslint --fix",
+      "eslint"
     ]
   },
   "devDependencies": {
