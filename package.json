@@ -1,0 +1,45 @@
+{
+  "name": "html-css-js-template",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "packageManager": "pnpm@11.18.0",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,mjs,css,html,json}\"",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "stylelint": "stylelint \"**/*.css\"",
+    "stylelint:fix": "stylelint \"**/*.css\" --fix",
+    "check": "pnpm lint && pnpm stylelint && prettier --check \"**/*.{js,mjs,css,html,json}\"",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.html": [
+      "prettier --write"
+    ],
+    "*.{css,scss}": [
+      "prettier --write",
+      "stylelint --fix"
+    ],
+    "*.{js,mjs}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.1",
+    "@commitlint/config-conventional": "^21.2.0",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.8.0",
+    "globals": "^17.8.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.2.0",
+    "prettier": "^3.9.6",
+    "stylelint": "^17.14.1",
+    "stylelint-config-standard": "^40.0.0"
+  }
+}
